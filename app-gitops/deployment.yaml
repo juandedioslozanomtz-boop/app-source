@@ -17,7 +17,7 @@ spec:
         deployment: my-app
     spec:
       containers:
-      - image: image-registry.openshift-image-registry.svc:5000/cicd-tu-nombre/my-app:latest
+      - image: image-registry.openshift-image-registry.svc:5000/cicd-juan-de-dios/my-app:latest
         imagePullPolicy: IfNotPresent
         name: my-app
         ports:
